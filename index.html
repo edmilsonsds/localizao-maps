@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coordenadas para Google Maps</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Coordenadas para Google Maps</h1>
+            <p class="description">Cole suas coordenadas no formato: -9.5265156264, -35.7837213732</p>
+            
+            <div class="input-group">
+                <input 
+                    type="text" 
+                    id="coordinates" 
+                    placeholder="Ex: -9.5265156264, -35.7837213732"
+                    class="coordinate-input"
+                >
+                <button 
+                    id="openMapsBtn" 
+                    class="maps-button"
+                >
+                    Ver no Google Maps
+                </button>
+            </div>
+            
+            <div id="error-message" class="error-message hidden"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
